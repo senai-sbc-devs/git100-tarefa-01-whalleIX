@@ -154,4 +154,4 @@ img {
 
 /* Esse bloco de código controla a responsividade da página em quesito de tamanhos de tela
 menores. Caso o dispositivo do usuário tenha um monitor pequeno, esses estilos
-serão aplicados. */
+serão aplicados, com uma redução no tamanho de textos, e ampliamento de imagens. */
