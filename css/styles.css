@@ -127,3 +127,22 @@ footer > h1{
 }
 
 /* O estilo dos elementos "h1" dentro do "footer" da página.*/
+
+@media only screen and (max-width: 768px) {
+    h1, h2, h3 {
+        font-size: smaller;
+    }
+    header img {
+        width:25%;
+    }
+    li {
+        text-align: center;
+    }
+    #link-github {
+        font-size: 120%;
+    }
+}
+
+/* Esse bloco de código controla a responsividade da página em quesito de tamanhos de tela
+menores. Caso o dispositivo do usuário tenha um monitor pequeno, esses estilos
+serão aplicados. */
