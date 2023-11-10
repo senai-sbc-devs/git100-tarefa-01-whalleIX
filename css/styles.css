@@ -1,9 +1,12 @@
 body {
 
-    background: rgb(255,108,2);
-background: linear-gradient(90deg, rgba(255,108,2,1) 55%, rgba(98,98,98,1) 85%, rgba(0,0,0,1) 100%);
+    background: rgb(255,136,50);
+    background: linear-gradient(90deg, rgba(255,136,50,1) 25%, rgba(98,98,98,1) 60%, rgba(0,0,0,1) 100%);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
+
+/* O estilo do corpo da página, com cores diferentes em gradiente e uma fonte única.*/
 
 header {
     text-align: center;
@@ -12,10 +15,11 @@ header {
     display: block;
     margin: 5%;
     padding: 2%;
-
     border:2px solid white;
     border-radius: 25%;
 }
+
+/* O estilo do cabeçalho. */
 
 header a {
     text-decoration: none;
@@ -23,20 +27,28 @@ header a {
     background-color: rgb(255, 174, 107);
 }
 
+/* O estilo dos elementos-âncora no cabeçalho. */
+
 header img {
     width: 10%;
 }
+
+/* A largura das imagens do cabeçalho. */
 
 main h1 {
     background-color:rgb(83, 83, 83);
     margin: 1%;
 }
 
+/* O estilo dos elementos "h1" do conteúdo principal da página. */
+
 main h2 {
     background-color: aliceblue;
     margin: 3%;
     padding: 2%;
 }
+
+/* O estilo dos elementos "h1" do conteúdo principal da página. */
 
 h1 {
     text-align: center;
@@ -46,13 +58,19 @@ h1 {
     font-size: xx-large;
 }
 
+/* O estilo dos elementos "h1" da página. */
+
 #github {
     background-color: rgb(255, 204, 110);;
 }
 
+/* O estilo do "id": "github", sendo esse o texto sobre o github na seção de github e git.*/
+
 #git {
     background-color: rgb(155, 155, 155);
 }
+
+/* O estilo do "id": "git", sendo esse o texto sobre o git na seção de github e git.*/
 
 .conjunto {
     background-color: aliceblue;
@@ -60,11 +78,52 @@ h1 {
     padding: 2%;
 }
 
+/* O estilo da "classe": "conjunto", sendo esse os elementos em conjunto por toda a página.*/
+
+
 #git-e-github {
     background-color:antiquewhite;
 }
+
+/* O estilo do "id": "git-e-github", sendo esse o texto sobre o git e o github na seção de github e git.*/
 
 #link-github:hover {
     background-color:antiquewhite;
     transition: 500ms;
 }
+
+/* O estilo do "id": "link-github" após o mouse passar por cima de tal. Sua cor de fundo muda
+lentamente.*/
+
+
+.conjunto h1 {
+    background-color:rgb(254, 170, 66);
+    color: black;
+}
+
+/* O estilo dos elementos "h1" da "classe": "conjunto"..*/
+
+ul {
+    background-color:rgb(255, 217, 105);
+    padding: 1%;
+    list-style-type: none;
+}
+
+/* O estilo dos elementos "ul" da página.*/
+
+
+ul li {
+    font-size: xx-large;
+    padding: 1%;
+}
+
+/* O estilo dos elementos "li" dentro dos elementos "ul" da página.*/
+
+
+footer > h1{
+    background-color: rgb(255, 180, 95);
+    color:black;
+    border: 3px solid black;
+}
+
+/* O estilo dos elementos "h1" dentro do "footer" da página.*/
