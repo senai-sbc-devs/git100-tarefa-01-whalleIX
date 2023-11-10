@@ -136,7 +136,8 @@ img {
     margin-right: auto;
 }
 
-/* O estilo dos elementos "h1" dentro do "footer" da página.*/
+/* O estilo das imagens da página, com a metade da largura, e posicionadas no centro da 
+página através das margens esquerda e direita.*/
 
 @media only screen and (max-width: 768px) {
     h1, h2, h3 {
