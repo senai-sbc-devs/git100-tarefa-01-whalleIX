@@ -1,0 +1,70 @@
+body {
+
+    background: rgb(255,108,2);
+background: linear-gradient(90deg, rgba(255,108,2,1) 55%, rgba(98,98,98,1) 85%, rgba(0,0,0,1) 100%);
+
+}
+
+header {
+    text-align: center;
+    background-color: rgb(255, 106, 0);
+    color: white;
+    display: block;
+    margin: 5%;
+    padding: 2%;
+
+    border:2px solid white;
+    border-radius: 25%;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    background-color: rgb(255, 174, 107);
+}
+
+header img {
+    width: 10%;
+}
+
+main h1 {
+    background-color:rgb(83, 83, 83);
+    margin: 1%;
+}
+
+main h2 {
+    background-color: aliceblue;
+    margin: 3%;
+    padding: 2%;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    display: block;
+    padding:2%;
+    font-size: xx-large;
+}
+
+#github {
+    background-color: rgb(255, 204, 110);;
+}
+
+#git {
+    background-color: rgb(155, 155, 155);
+}
+
+.conjunto {
+    background-color: aliceblue;
+    margin: 2%;
+    padding: 2%;
+}
+
+#git-e-github {
+    background-color:antiquewhite;
+}
+
+#link-github:hover {
+    background-color:antiquewhite;
+    transition: 500ms;
+}
