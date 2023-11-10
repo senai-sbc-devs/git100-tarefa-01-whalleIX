@@ -126,6 +126,13 @@ footer > h1{
     border: 3px solid black;
 }
 
+img {
+    width:50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* O estilo dos elementos "h1" dentro do "footer" da página.*/
 
 @media only screen and (max-width: 768px) {
